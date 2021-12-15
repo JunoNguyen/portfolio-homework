@@ -44,6 +44,7 @@ nav li {
 header {
     font-size:20px;
     display:flex;
+    width: 50%;
 }
 
 header h2 {
@@ -60,10 +61,26 @@ header p {
     font-size: 15px;
 }
 
-.insertImages {
-    display:block;
-    margin: 10px auto;
-    max-width: 150px;
+.allimages {
+    display:flex;
+    width: 50%;
+}
+
+.imagebox {
+    flex-grow:1;
+}
+
+.allimages>div>div {
+    position: relative;
+    bottom: 50px;
+    width: 100px;
+    border:solid;
+    border-color: darkslategray;
+}
+
+
+.allimages>div>img {
+    border: 5px solid darkslategray;
 }
 
 .footer {
@@ -77,3 +94,4 @@ header p {
 .footer h2 {
     font-size: 20px;
 }
+
