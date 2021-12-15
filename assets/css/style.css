@@ -85,8 +85,6 @@ header p {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    flex: 4;
-    
 }
 
 .allimages h2 {
@@ -124,16 +122,10 @@ header p {
     clear:both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-    margin-top:500px;
+    margin-top:200px;
 }
 
 .footer h2 {
     font-size: 20px;
 }
-
-@media screen and (max-width: 768px) {
-    body,
-    .allimages {
-      flex-direction: column;
-    }
-  }
+    
